@@ -1,6 +1,6 @@
 require 'discordrb'
 
-bot = Discordrb::Commands::CommandBot.new token:'MzYzNjk0MTgxNTE4MTQ3NTg0.DLE8HQ.K4xWl0iumkaBu6ZEUnjLB2euGnU', client_id:363694181518147584,prefix:'/'
+bot = Discordrb::Commands::CommandBot.new token:'ここにトークンを入力', client_id:ここにクライアントIDを入力,prefix:'/'
 
 bot.command :pac do |event|
 event.respond 'https://vignette4.wikia.nocookie.net/rezero/images/9/97/Pack_Anime.png/revision/latest?cb=20160408205412'
